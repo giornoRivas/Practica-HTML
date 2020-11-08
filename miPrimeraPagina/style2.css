@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+}
+
+.dio {
+    color: gold;
+    font-size: x-large;
+}
+
+main{
+    text-align: center;
+}
+
+.gif-dio {
+    width: 300px;
+    height: auto;
+}
+
+footer{
+    padding-top: 50px;
+    text-align: center;
+}
