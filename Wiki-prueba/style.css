@@ -1,0 +1,180 @@
+*
+{
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+
+html
+{
+   font-size:62.5%;
+}
+
+div
+{
+    text-align: center;
+}
+a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #36c;
+    cursor: pointer;
+}
+h1
+{
+    font-size: 3.6rem;
+    text-align: center;
+}
+.sub
+{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+span
+{
+    color: black;
+    font-weight: normal;
+}
+.titulo
+{   
+    width: 15rem;
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.logo
+{   
+    align-self: center;
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    top: 20rem;
+}
+.box
+{
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 54rem;
+    height: 45rem;
+    margin: 0 auto;
+    position: relative;
+}
+.box1
+{
+    position: absolute;
+    right: 55%;
+    top: 17%;
+}
+.box2
+{
+    position: absolute;
+    left: 55%;
+    top: 17%;
+}
+.box3
+{
+    position: absolute;
+    right: 60%;
+    top: 24%;
+}
+.box4
+{
+    position: absolute;
+    left: 60%;
+    top: 24%;
+}
+.box5
+{
+    position: absolute;
+    right: 61.5%;
+    top: 32%;
+}
+.box6
+{
+    position: absolute;
+    left: 61.5%;
+    top: 32%;
+}
+.box7
+{
+    position: absolute;
+    right: 60%;
+    top: 40%;
+}
+.box8
+{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+.box9
+{
+    position: absolute;
+    right: 55%;
+    top: 48%;
+}
+.box10
+{
+    position: absolute;
+    left: 55%;
+    top: 48%;
+}
+.buscar
+{   
+    width: 30rem;
+    border: 1px gray solid;
+    border-radius: 1%;
+    margin: 0 auto;
+}
+.texto
+{
+    width: 82.4%;
+    padding: 10.8px;
+    border: none;
+    outline: none;
+}
+#x
+{
+    border: 1px gray none;
+    cursor: pointer;
+    margin-right: 7px;
+}
+.lupa
+{
+    background-image: url(./Materiales/Iconos/lupa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 18.5px;
+}
+.boxb
+{
+    border: gray 1px solid;
+    width: 25rem;
+    height: 33px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: #f8f9fa;
+}
+.letra
+{
+    background-image: url(./Materiales/Iconos/letra.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 16px;
+}
+
+#s
+{
+    border: none;
+    outline: none;
+    margin-top: 2px;
+    color: #36c;
+    font-size: 13px;
+    font-weight: bold;
+}
