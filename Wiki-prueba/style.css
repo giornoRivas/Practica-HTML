@@ -208,18 +208,22 @@ span
 }
 footer
 {
-    width: 80rem;
-    height: 80rem;
+    width: 100%;
+    height: 40rem;
 }
 .zero
 {
     display: flex;
-    margin: 10rem;
+    width: 100%;
+    margin-top: 10rem;
+    height: 40rem;
+
 }
 .f
 {
-    width: 30rem;
+    width: 40rem;
     height: 50rem;
+    margin-left: 10rem;
 }
 .caja
 {
@@ -230,8 +234,8 @@ footer
 .foto
 {
     background-image: url(./Materiales/Iconos/Untitled-1.png);
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -267,31 +271,157 @@ footer
 }
 .caja1 h1
 {
-    width: 100rem;
+    width: 30rem;
     height: 3rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 .caja1 p
 {
     width: 100rem;
     height: 7rem;
+    font-size: 1.3rem;
 }
 .load
 {
     background-image: url(./Materiales/Iconos/Untitled-15.png);
     width: 60px;
-    height: 60px;
+    height: 40px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 4rem;
+    margin-right: 1rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
 }
 .load1
 {
     background-image: url(./Materiales/Iconos/Untitled-16.png);
     width: 60px;
-    height: 60px;
+    height: 40px;
     margin-bottom: 6rem;
+    margin-top: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.f1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 40rem;
+    margin: 0 auto;
+
+}
+.f1 div
+{   
+
+    margin: 0 auto;
+    width: 33%;
+    height: 10rem;
+    font-size: 1.5rem;
+    text-align: left;
+    display: flex;
+}
+.foto2
+{
+    background-image: url(./Materiales/Iconos/Untitled-2.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto3
+{
+    background-image: url(./Materiales/Iconos/Untitled-3.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto4
+{
+    background-image: url(./Materiales/Iconos/Untitled-4.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto5
+{
+    background-image: url(./Materiales/Iconos/Untitled-5.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto6
+{
+    background-image: url(./Materiales/Iconos/Untitled-6.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto7
+{
+    background-image: url(./Materiales/Iconos/Untitled-7.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto8
+{
+    background-image: url(./Materiales/Iconos/Untitled-8.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto9
+{
+    background-image: url(./Materiales/Iconos/Untitled-9.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto10
+{
+    background-image: url(./Materiales/Iconos/Untitled-10.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto11
+{
+    background-image: url(./Materiales/Iconos/Untitled-11.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto12
+{
+    background-image: url(./Materiales/Iconos/Untitled-12.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto13
+{
+    background-image: url(./Materiales/Iconos/Untitled-13.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.final
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
 }
