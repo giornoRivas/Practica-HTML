@@ -1,0 +1,266 @@
+@font-face{
+   font-family: linuxLibertine;
+   src: url(./Fonts/LinLibertine_aS.ttf);
+}
+
+*{
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+
+:root{
+   --main: #3366CC;
+   --secundary: #A2A9B1;
+   --celeste: #6E7ECC;
+}
+
+html{
+     font-size:62.5%;
+     
+}
+
+
+.wikipedia{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding-top: 3rem;  
+}
+
+.wikipedia h1, strong{
+   margin-top: 0.5rem;
+   font-family: linuxLibertine;
+}
+
+.wikipedia h1{
+   font-size: 3rem;
+
+}
+
+.wiki-image {
+   position: absolute;
+   top: 13rem;
+   width: 20rem;
+   height: 18rem;
+   align-self: center;
+   vertical-align: center;
+}
+
+.div-cajas{
+   display: flex;
+   margin: 0 auto;
+   width: 54rem;
+   height: 30rem;
+   position: relative;
+
+}
+.cajas{
+   width: 15rem;
+   height: 4rem;
+   position: absolute;
+   padding: 1rem;
+   text-align: center;
+   margin: none;
+   font-size: 1.5rem;
+   
+}
+.cajas a{
+   text-decoration: none;
+   color: var(--main);
+   font-weight: bold;
+}
+
+.uno{
+   top:0;
+   right:60%;
+}
+
+.dos{
+  top:0;
+  left:60%;
+}
+
+.tres{
+   top:15%;
+   right: 70%;
+}
+
+.cuatro{
+   top:15%;
+   left:70%;
+}
+
+.cinco{
+   top:30%;
+   right:72%;
+}
+.seis {
+   top:30%;
+   left:72%;
+}
+.siete{
+   top:50%;
+   right:70%
+}
+.ocho{
+   top:50%;
+   left:70%;
+}
+
+.nueve{
+   top:70%;
+   right: 65%;
+}
+.dies{
+   top:70%;
+   left: 65%;
+}
+
+.buscador{
+   display: block;
+   width: 45rem;
+   height: 4rem;
+   margin: 0 auto 3.5rem auto;
+   border: 0.1rem solid var(--secundary);
+}
+
+.buscador input{
+   border: none;
+   padding: 0.5rem 2rem;
+}
+
+.boton-leng{
+   display: block;
+   width: 30rem;
+   height: 3.4rem;
+   margin: 0 auto;
+   border: 0.1rem solid var(--secundary);
+   justify-content: center;
+   
+}
+
+.boton-leng button{
+   display: flex;
+   color: #9f5ac7;
+   background: none;
+   font-weight: bold;
+   font: inherit;
+   border:none;
+   padding:0.8rem 5rem;
+   font-size: 1.5rem;
+   cursor: pointer;
+}
+
+.cajita {
+   width: 3rem;
+   height: 3rem;
+}
+
+main{
+   width: 100%;
+   height: 42rem;
+   margin:0 auto;
+   display: flex;
+   padding:2rem;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.main-cajitas img {
+   width: 4.5rem;
+   height: 4.5rem;
+}
+.main-cajitas{
+   font-size: 1.5rem;
+   margin:0 auto;
+   display: inline-block;
+}
+.main-cajitas div{
+   display: inline-block;
+}
+
+.main-cajitas .cajita-texto a{
+    display: flex;
+   flex-direction: column; 
+  
+}
+
+main .unoo{
+   padding-top: 1rem;
+   display: flex;
+   width: 35rem;
+   height: 9rem;
+}
+
+main .doss{
+   padding-top: 2rem;
+   display: flex;
+   width: 35rem;
+   height: 25rem;
+}
+
+.los-doce{
+   width: 70%;
+}
+main .tress{
+   
+   width: 30%;
+   height: 9rem;
+}
+
+main .cuatroo{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .cincoo{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .seiss{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .sietee{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .ochoo{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .nuevee{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .diess{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .oncee{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .docee{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .trecee{
+   
+   width: 30%;
+   height: 9rem;
+}
+main .catorcee{
+   
+   width: 35%;
+   height: 9rem;
+}
